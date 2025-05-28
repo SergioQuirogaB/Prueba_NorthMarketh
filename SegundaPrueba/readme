@@ -1,0 +1,39 @@
+# Prueba Técnica – Desarrollador Junior North Marketh
+
+## 📝 Descripción
+
+Este proyecto consiste en un script en Python que automatiza el proceso de extracción de información pública de seguidores de las cuentas de Instagram:
+
+- @elcorteingles
+- @mercadona
+- @carrefoures
+
+El objetivo es extraer, de manera automatizada, para cada seguidor:
+
+- Nombre completo (si está visible)
+- Correo electrónico (si está en la biografía)
+- Número de teléfono (si está en la biografía)
+- Biografía
+- Fecha aproximada del perfil (simulada con datos disponibles)
+
+Los resultados se consolidan automáticamente en un archivo **Excel**.
+
+---
+
+## ⚙️ Tecnologías usadas
+
+- Python 3.x
+- Selenium
+- WebDriver Manager
+- OpenPyXL
+- Google Chrome
+
+---
+
+## 🚀 Instrucciones de uso
+
+1. Clona este repositorio.
+2. Instala los paquetes requeridos:
+
+```bash
+pip install selenium webdriver-manager openpyxl
